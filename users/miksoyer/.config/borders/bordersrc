@@ -1,0 +1,14 @@
+#!/bin/bash
+
+options=(
+	style=round     # round or square
+	active_color=0xffe2e2e3                 # 0xffe1e3e4
+	inactive_color=0xff414550               # 0xff494d64
+    # background_color=0xAARRGGBB           # Sets the background fill color for all windows
+    width=6.0 
+    hidpi=off                               # If set to on, the border will be drawn with retina resolution.
+    # blacklist=<application_list>
+    whitelist=inactive
+)
+
+borders "${options[@]}"

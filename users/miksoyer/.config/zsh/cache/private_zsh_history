@@ -1,0 +1,21 @@
+: 1749484229:0;rustc -V
+: 1749484230:0;clear
+: 1749484495:1;brew update
+: 1749484500:3;brew upgrade
+: 1749485675:14;bi
+: 1749491472:0;source ~/.zshrc
+: 1749491485:0;nvim ~/.zshrc
+: 1749491510:0;sr
+: 1749491526:0;nvim ~/.zshrc
+: 1749491548:0;clear
+: 1749491593:0;nvim
+: 1749491692:0;chezmoi --help
+: 1749491740:0;chezmoi cat
+: 1749491745:0;chezmoi cat-config
+: 1749491752:0;chezmoi --help
+: 1749491782:0;chezmoi data
+: 1749491792:0;chezmoi --help
+: 1749491809:0;chezmoi add .zshrc
+: 1749491820:0;chezmoi add .config/wezterm
+: 1749491841:0;chezmoi add .config/bat/*
+: 1749491861:0;chezmoi add .config/zsh/*
