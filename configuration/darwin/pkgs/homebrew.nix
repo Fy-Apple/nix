@@ -18,7 +18,6 @@
       "qqlive"
       "qqmusic"
       "raycast"
-      "lm-studio"
     ];
     masApps = {
       # "Amphetamine" = 937984704;
