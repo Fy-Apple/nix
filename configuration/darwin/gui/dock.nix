@@ -32,6 +32,8 @@
     mouse-over-hilite-stack = true;
     scroll-to-open = true;                                # Scroll up on a Dock icon to show all Space’s opened windows for an app, or open stack
     show-recents = true;
+    show-process-indicators = true;                       # Show indicator lights for open applications in the Dock
+    
 
     # This is necessary for Yabai
     mru-spaces = false;                                   # automatically rearrange spaces based on most recent use
