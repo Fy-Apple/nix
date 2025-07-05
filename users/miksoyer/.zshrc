@@ -58,5 +58,5 @@ eval "$(starship init zsh)" || echo "~"
 [[ "$SHELL" == */zsh ]] && source <(fzf --zsh) || echo ""
 
 # 初始化 zoxide, 必须放在zoxide相关设置后最后导入
-[[ "$SHELL" == */zsh ]] && eval "$(zoxide init --no-cmd zsh)"
+[[ "$SHELL" == */zsh ]] && eval "$(zoxide init --no-cmd zsh)" || echo ""
 
