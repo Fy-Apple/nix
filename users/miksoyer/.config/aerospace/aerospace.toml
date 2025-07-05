@@ -7,7 +7,7 @@ after-login-command = []
 # You can use it to add commands that run after AeroSpace startup.
 after-startup-command = [
     # require to brew install borders(tap)
-    'exec-and-forget borders'
+    'exec-and-forget borders style=round active_color=0xff38bdf8 inactive_color=0xffbfdbfe background_color=0xffc4b5fd width=6.0 hidpi=on'
 ]
 
 
@@ -120,10 +120,10 @@ automatically-unhide-macos-hidden-apps = true
     alt-3 = 'workspace 3'
     alt-4 = 'workspace 4'
     alt-e = 'workspace Enjoy'       # just so so
-    alt-t = 'workspace Terminal'    # for Terminal
-    alt-b = 'workspace Browser'     # for browser
+    alt-t = 'workspace Term'    # for Terminal
+    alt-b = 'workspace Browse'     # for browser
     alt-v = 'workspace VSCode'      # for vscode
-    alt-c = 'workspace Code'        # for IDE, (code)
+    alt-w = 'workspace Work'        # for IDE, (code)
 
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
@@ -132,10 +132,10 @@ automatically-unhide-macos-hidden-apps = true
     alt-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
     alt-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
     alt-shift-e = ['move-node-to-workspace Enjoy', 'workspace Enjoy']
-    alt-shift-t = ['move-node-to-workspace Terminal', 'workspace Terminal']   # for Terminal
-    alt-shift-b = ['move-node-to-workspace Browser', 'workspace Browser']   # for browser
+    alt-shift-t = ['move-node-to-workspace Term', 'workspace Term']   # for Terminal
+    alt-shift-b = ['move-node-to-workspace Browse', 'workspace Browse']   # for browser
     alt-shift-v = ['move-node-to-workspace VSCode', 'workspace VSCode']   # for vscode
-    alt-shift-c = ['move-node-to-workspace Code', 'workspace Code']   # for IDE, (code)
+    alt-shift-c = ['move-node-to-workspace Work', 'workspace Work']   # for IDE, (code)
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
