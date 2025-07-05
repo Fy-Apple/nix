@@ -2,11 +2,11 @@
 
 options=(
 	style=round     # round or square
-	active_color=0xffe1e3e4                 # 0xffe1e3e4
-	inactive_color=0xffe2e2e3               # 0xff494d64
-    # background_color=0xAARRGGBB           # Sets the background fill color for all windows
+	active_color=0xff38bdf8         # 0xffc4b5fd             # 0xffe1e3e4
+	inactive_color=0xffbfdbfe               # 0xff494d64
+    background_color=0xffc4b5fd          # Sets the background fill color for all windows
     width=7.0 
-    hidpi=off                               # If set to on, the border will be drawn with retina resolution.
+    hidpi=on                               # If set to on, the border will be drawn with retina resolution.
     # blacklist=<application_list>
     whitelist=inactive
 )

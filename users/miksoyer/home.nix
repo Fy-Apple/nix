@@ -68,6 +68,7 @@ in
     ".config/yazi" = { source = "/etc/nix-darwin/users/${myname}/.config/yazi/"; recursive = true; };
     ".config/helix" = { source = "/etc/nix-darwin/users/${myname}/.config/helix/"; recursive = true; };
     ".config/aerospace" = { source = "/etc/nix-darwin/users/${myname}/.config/aerospace/"; recursive = true; };
+    ".config/borders" = { source = "/etc/nix-darwin/users/${myname}/.config/borders/"; recursive = true; };
   };
 
   # Let Home Manager install and manage itself.
