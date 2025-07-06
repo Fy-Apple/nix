@@ -6,16 +6,21 @@
 xcode-select --install
 
 # 3. clone the nix dotfile repository
-git clone https://github.com/Fy-Apple/nix.git ~/nix-darwin
+sudo git clone https://github.com/Fy-Apple/nix.git /etc/nix-darwin
 
-# 4. create a symlink to /etc/nix-darwin
-sudo ln -s ~/nix-darwin /etc/nix-darwin
+# 4. configure dir
+sudo chown $(id -nu):$(id -ng) /etc/nix-darwin
+sudo git config --global --add safe.directory /etc/nix-darwin
 
 # 5. install determined nix, choose no to avoid install nix for xxx
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 
-# 6. Installing nix-darwin
-sudo nix run nix-darwin/master#darwin-rebuild -- switch
+# 6. edit your hostname in settings
 
-# 7. rebuild
+
+# 7. Installing nix-darwin
+sudo nix run nix-darwin/master#darwin-rebuild -- switch --impure --extra-experimental-features "nix-command flakes"
+
+# 8. rebuild
 sudo darwin-rebuild switch --impure --show-trace --flake /etc/nix-darwin#HUAWEI-MateBook-Fold
+
